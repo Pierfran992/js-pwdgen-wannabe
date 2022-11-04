@@ -28,4 +28,4 @@ var password = nameUser + secondNameUser + favouriteColor + elementPswd;
 console.log(password); 
 
 // output della password 
-document.getElementById('pswd').innerHTML = `La Password che abbiamo creato per te, attraverso un complicatissimo e sicurissimo algoritmo è ${password}`;
+document.getElementById('pswd').innerHTML = `La Password che abbiamo creato per te, attraverso un complicatissimo e sicurissimo algoritmo è: ${password}`;

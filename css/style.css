@@ -5,5 +5,21 @@
 }
 /* debug */
 body {
+    color: #fff;
     background-color: blue;
+}
+
+.container {
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+p {
+    background-color: black;
+    display: none;
+}
+
+.container:hover > p {
+    display: block
 }
